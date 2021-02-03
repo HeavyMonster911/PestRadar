@@ -285,10 +285,10 @@ body {
 .footer {
     display: flex;
     position: fixed;
-    top: 95vh;
-    width: 80%;
+    top: 94vh;
+    width: 60%;
     justify-content: space-between;
-    left: 35vh;
+    left: 80vh;
     align-items: center;
 }
 
