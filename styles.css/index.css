@@ -280,7 +280,11 @@ body {
 
 .footer {
     display: flex;
+    position: fixed;
+    top: 95vh;
+    width: 80%;
     justify-content: space-between;
+    left: 35vh;
     align-items: center;
     width: 100%;
 }
