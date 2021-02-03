@@ -13,6 +13,10 @@
     src: local('SF Compact Display Medium'), url('assets/fonts/sf-compact-display-medium-58646eb43a785.woff') format('woff');
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     display: flex;
     align-items:baseline;
@@ -286,7 +290,6 @@ body {
     justify-content: space-between;
     left: 35vh;
     align-items: center;
-    width: 100%;
 }
 
 .footer__list {
