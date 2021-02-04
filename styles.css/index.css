@@ -241,16 +241,8 @@ body {
     padding: 0;
 }
 
-.red {
-    color: white;
-    border-radius: 2px;
-    background-color: #e02020;
-    text-align: center;
-    padding: 10px 0;
-    margin: 0;
-}
 
-.grey {
+.row__btn {
     color: white;
     border-radius: 2px;
     opacity: 0.67;
@@ -258,6 +250,11 @@ body {
     background-color: #1f3b51;
     padding: 10px 0;
     margin: 5px;
+}
+
+.red {
+    background-color: #e02020;
+    opacity: 1;
 }
 
 .checkbox {
