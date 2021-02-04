@@ -44,7 +44,7 @@ body {
 }
 
 .header a:hover {
-    opacity: 0.5;
+    opacity: 0.7;
     cursor: pointer;
 }
 
@@ -162,6 +162,12 @@ body {
     font-weight: bold;
     opacity: 1;
     cursor: pointer;
+    transition: 0.25s;
+    font-size: 18px;
+}
+
+.side-bar__item a:not(:hover) {
+    transition: 0.25s;
 }
 
 .side-bar__support {
@@ -308,18 +314,18 @@ body {
     color: white;
 }
 
-.list__item:focus,
+.list__item:focus {
+    border-radius: 2px;
+    background-color: #697c8a;
+    color: white;
+    outline: none;
+}
+
 .list__item:active {
     border-radius: 2px;
     background-color: #ccdae4;
     color: white;
     outline: none;
-}
-
-.chosen-page {
-    color: white;
-    border-radius: 2px;
-    background-color: #697c8a;
 }
 
 .footer__button {
