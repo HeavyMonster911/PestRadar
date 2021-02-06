@@ -1,1 +1,1 @@
-# PestRadar https://heavymonster911.github.io/rer/.
+# PestRadar https://heavymonster911.github.io/PestRadar/.
